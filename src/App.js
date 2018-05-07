@@ -47,7 +47,7 @@ class App extends Component {
             <Grid.Column width={4}>
               <Segment>
                 <Header as='h2'>Semantic UI</Header>
-                {/* <List divided relaxed>
+                <List divided relaxed>
                   <List.Item>
                     <List.Icon name='github' size='large' verticalAlign='middle' />
                     <List.Content>
@@ -77,7 +77,7 @@ class App extends Component {
                     </List.Content>
                   </List.Item>
                 </List>
-                <Divider /> */}
+                <Divider />
                 <Button fluid color="red">Full width</Button>
                 <Divider />
                 <Button primary>Primary</Button>
@@ -86,10 +86,10 @@ class App extends Component {
               </Segment>
             </Grid.Column>
             <Grid.Column width={12}>
-              {/* <Segment>
+              <Segment>
                 <Header as='h2'>Header</Header>
                 <Card.Group itemsPerRow={3} items={items} />
-              </Segment> */}
+              </Segment>
               <Segment>
                 <Header as='h2'>Customer information</Header>
                 <Table singleLine>
